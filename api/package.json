@@ -1,0 +1,30 @@
+{
+  "name": "efficient-vps-api",
+  "version": "0.0.1",
+  "description": "A website that turns on and off a VPS.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "npx tsc",
+    "start": "node build/index.js"
+  },
+  "author": "soynexz",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soynexz/efficient-vps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soynexz/efficient-vps/issues"
+  },
+  "homepage": "https://github.com/soynexz/efficient-vps#readme",
+  "devDependencies": {
+    "nodemon": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
